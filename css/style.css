@@ -1,0 +1,151 @@
+body{
+background-color:#000;
+/*background-image:url(../images/background.png);*/
+background-repeat:no-repeat;
+font-family:"Helvetica Neue", Helvetica;
+font-size:12px;
+line-height:20px;
+color:#FFFFFF;
+}
+
+a {
+color:#ffec00;
+text-decoration:none;
+vertical-align:baseline;
+border:none;
+}
+a:hover {
+color:#FFFFFF;
+}
+img {
+border:none;
+margin:0px;
+padding:0px;
+}
+p{
+padding-bottom:12px;
+}
+.container{
+text-align:center;
+}
+.content {
+text-align:left;
+}
+.menu {
+margin-bottom:3px;
+}
+.title{
+margin-top:14px;
+margin-bottom:4px;
+font-size:18px;
+line-height:22px;
+}
+.sponsor{
+font-size:14px;
+}
+.credits{
+font-size:10px;
+line-height:14px;}
+.right{
+text-align:right;}
+.left{
+text-align:left;
+border:none;
+padding:0px;
+margin:0px;
+}
+.peq{
+font-size:10px;
+line-height:14px;}
+.top{
+vertical-align:top;
+}
+.homeImg{
+background-image:url(../images/bac/masks/bac2.jpg);
+height:264px;
+}
+.homeImgSmall{
+background-image:url(../images/cover.jpg);
+height:264px;
+}
+.txt_bloc{
+margin-top:12px;
+background:#000;
+}
+.bloc{
+padding-bottom:32px;
+padding-top:32px;
+}
+
+.imagemaskhd {
+position:relative;
+overflow:hidden;
+width:458px;
+height:264px;
+}
+.imagemaskld {
+position:relative;
+overflow:hidden;
+width:640px;
+height:240px;
+}
+.imagemask {
+position:relative;
+overflow:hidden;
+width:948px;
+height:264px;
+}
+.active {
+color:#FFFFFF !important;
+}
+.thumbs{
+padding-top:3px;
+}
+
+/* lightbox */
+
+#caption a{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color:#000 !important;
+display: block; 
+clear: left; 
+padding: 0.5em 0em 1.0em;	
+cursor:pointer;
+font-size:12px;
+}
+
+#caption a:hover{
+font-weight:bold;
+cursor:pointer;
+}
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../imgs/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../imgs/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ }
+#imageData #numberDisplay{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:14px;
+line-height:18px;
+color:#000 !important;
+font-weight:bold}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
